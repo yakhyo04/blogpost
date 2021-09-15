@@ -1,0 +1,15 @@
+.list{
+    list-style-type: none;
+    height: 50vh;
+    width: 25%;
+    overflow: auto;
+}
+.input{
+    padding: 10px 40px;
+    outline: none;
+}
+.btn{
+    padding: 12px 40px;
+    border: none;
+    border-radius: 5px;
+}
