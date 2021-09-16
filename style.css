@@ -1,8 +1,13 @@
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
 .list{
     list-style-type: none;
-    height: 50vh;
+    height: 90vh;
     width: 25%;
-    overflow: auto;
+    overflow:hidden;
 }
 .input{
     padding: 10px 40px;
@@ -12,4 +17,8 @@
     padding: 12px 40px;
     border: none;
     border-radius: 5px;
+}
+img{
+    display: block;
+    border-radius: 50%;
 }
