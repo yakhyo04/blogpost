@@ -1,7 +1,7 @@
-const elForm = document.querySelector('#form')
-const elInput = elForm.querySelector('#input')
-const elBtn = elForm.querySelector('#btn')
-const elList = document.querySelector('#list')
+const elForm = document.querySelector('#form');
+const elInput = elForm.querySelector('#input');
+const elBtn = elForm.querySelector('#btn');
+const elList = document.querySelector('#list');
 
 elForm.addEventListener('submit', function(e){
     e.preventDefault();
@@ -13,18 +13,18 @@ elForm.addEventListener('submit', function(e){
     newLi.setAttribute('class', 'menu__link');
     
     let newBtn = document.createElement('button');
-    newBtn.textContent = 'x'
+    newBtn.textContent = 'x';
 
 
     let newImg = document.createElement('img');
     newImg.textContent = '';
-    newImg.setAttribute('src', 'https://picsum.photos/100')
+    newImg.setAttribute('src', 'https://picsum.photos/100');
     
-    input.value = ''
+    input.value = '';
     
-    newLi.appendChild(newImg)
+    newLi.appendChild(newImg);
 
-    newLi.appendChild(newBtn)
+    newLi.appendChild(newBtn);
 
     list.appendChild(newLi);
 
