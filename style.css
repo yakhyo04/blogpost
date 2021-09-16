@@ -5,8 +5,6 @@
 }
 .list{
     list-style-type: none;
-    height: 90vh;
-    width: 25%;
     overflow:hidden;
 }
 .input{
@@ -21,5 +19,4 @@
 img{
     display: block;
     border-radius: 50%;
-    margin: 40px;
 }
